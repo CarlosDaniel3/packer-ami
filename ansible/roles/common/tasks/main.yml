@@ -1,0 +1,21 @@
+---
+- name: Update cache
+  apt:
+    update_cache: yes
+
+- name: Upgrade operating system
+  apt:
+    name: "*"
+    state: latest
+
+- name: Install essential packages
+  apt:
+    name: "{{ packages }}"
+    state: present
+
+- name: Create user
+  user:
+    name: carlos
+    shell: /bin/bash
+    home: /home/carlos
+...
