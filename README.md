@@ -1,4 +1,4 @@
-# packer-ansible-workshop
+# packer-ansible
 
 Criar uma ami pelo packer com pacotes essenciais do linux como:
 ```
