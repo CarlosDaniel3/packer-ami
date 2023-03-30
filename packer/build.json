@@ -11,7 +11,7 @@
         "source_ami": "ami-0b0af3577fe5e3532",
         "instance_type": "t3.micro",
         "ssh_username": "root",
-        "ami_name": "base-image-ubuntu",
+        "ami_name": "ubuntu-common-packages",
         "force_deregister": true,
         "force_delete_snapshot": true 
     }],
